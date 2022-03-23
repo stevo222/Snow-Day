@@ -1,0 +1,109 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 8122 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Snow Day/Snow-Day/Snow Day
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52868
+Successfully changed project path to: E:/Snow Day/Snow-Day/Snow Day
+E:/Snow Day/Snow-Day/Snow Day
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Snow Day/Snow-Day/Snow Day/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     4075 MB
+    Driver:   30.0.13023.4001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002272 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 1.935600 ms (FindLiveObjects: 0.156900 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.654100 ms  DeleteObjects: 0.090800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.028747 seconds
+  Import took 0.030656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.621465 seconds.
+  path: Assets/Scenes/My Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/My Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af9826c42709b4c285f03a4648a57b4') in 0.021003 seconds
+  Import took 0.030959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.553663 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.009468 seconds
+  Import took 0.110599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.670198 seconds.
+  path: Assets/Matierals
+  artifactKey: Guid(d8cff0e2409742446bdf9018b4cb8f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Matierals using Guid(d8cff0e2409742446bdf9018b4cb8f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f5e92ad17e404d43f1d8f242ed3995') in 0.010142 seconds
+  Import took 0.012893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000790 seconds.
+  path: Assets/Matierals
+  artifactKey: Guid(d8cff0e2409742446bdf9018b4cb8f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Matierals using Guid(d8cff0e2409742446bdf9018b4cb8f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f5e92ad17e404d43f1d8f242ed3995') in 0.005226 seconds
+  Import took 0.026139 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
