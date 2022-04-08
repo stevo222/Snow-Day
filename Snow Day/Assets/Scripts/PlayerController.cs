@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 8.0f;
+    public float speed = 20.0f;
     private Rigidbody playerRb;
     private float zBound = 7;
     // Start is called before the first frame update
@@ -44,6 +44,22 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(transform.position.x, transform.position.y, zBound);
         }
 
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Fire"))
+        {
+            Debug.Log("Player has collided with fire");
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Snowflake"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 
 }
