@@ -15,11 +15,11 @@ E:/Snow Day/Snow-Day/Snow-Day/Snow Day
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50939
+51424
 Successfully changed project path to: E:/Snow Day/Snow-Day/Snow-Day/Snow Day
 E:/Snow Day/Snow-Day/Snow-Day/Snow Day
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.12 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,462 +35,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002295 seconds.
+Registered in 0.002452 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.190 seconds
+- Completed reload, in  1.160 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000714 seconds.
+Registered in 0.000702 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
+- Completed reload, in  0.855 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.4 MB.
-System memory in use after: 57.4 MB.
+System memory in use before: 58.1 MB.
+System memory in use after: 58.1 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1560.
-Total: 1.855400 ms (FindLiveObjects: 0.145900 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.595400 ms  DeleteObjects: 0.081200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/flame.fbx
-  artifactKey: Guid(2f2e7039c50732745aefa4fc4fa03d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/flame.fbx using Guid(2f2e7039c50732745aefa4fc4fa03d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3878656223b53cb090430b5f5ca095ef') in 0.333517 seconds
-  Import took 0.335880 seconds .
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1563.
+Total: 1.735500 ms (FindLiveObjects: 0.141400 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.481500 ms  DeleteObjects: 0.080400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 154.325322 seconds.
-  path: Assets/Prefabs/Rock.prefab
-  artifactKey: Guid(e182b7f423829e04ba1ab130647b93cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Rock.prefab using Guid(e182b7f423829e04ba1ab130647b93cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fdbd98af4f47a6c985c12e79b4c5e1') in 0.017071 seconds
-  Import took 0.135102 seconds .
+  path: Assets/Snowflakes
+  artifactKey: Guid(6d8735c4a9c72394f964475f5f03e88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowflakes using Guid(6d8735c4a9c72394f964475f5f03e88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0ad23789b28c71aacd71da84f04c56') in 0.008306 seconds
+  Import took 0.010067 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 11.866906 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c3ebca5784be9ab62fb04e0f63d220') in 0.017896 seconds
-  Import took 0.111261 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000807 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.7 MB.
-System memory in use after: 60.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1606.
-Total: 1.688200 ms (FindLiveObjects: 0.142800 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.457700 ms  DeleteObjects: 0.055100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.927897 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d05f8fc8ade6687c27370aa69ae66f') in 0.065379 seconds
-  Import took 0.067378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.733098 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d9fc29866d7d6e3c2741c30f972829') in 0.014048 seconds
-  Import took 0.016655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.085419 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfb0b4b9678025fddb001a91c5d80a5') in 0.012386 seconds
-  Import took 0.014509 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000737 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.824 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.8 MB.
-System memory in use after: 60.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1610.
-Total: 1.736100 ms (FindLiveObjects: 0.149900 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.484700 ms  DeleteObjects: 0.068600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000961 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.813 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.8 MB.
-System memory in use after: 60.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1613.
-Total: 1.719100 ms (FindLiveObjects: 0.150200 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.477100 ms  DeleteObjects: 0.059100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000695 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.9 MB.
-System memory in use after: 60.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1616.
-Total: 2.381800 ms (FindLiveObjects: 0.163400 ms CreateObjectMapping: 0.033000 ms MarkObjects: 2.116500 ms  DeleteObjects: 0.067200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.092532 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81cdfdb8e31b935b471ad8b2f7008884') in 0.080744 seconds
-  Import took 0.182396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 220.851453 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a411e994acf226cb496635f791b66d2') in 0.011548 seconds
-  Import took 0.013902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059134 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a411e994acf226cb496635f791b66d2') in 0.043260 seconds
-  Import took 0.046027 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001071 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.793 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.9 MB.
-System memory in use after: 60.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1620.
-Total: 1.690800 ms (FindLiveObjects: 0.147100 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.445900 ms  DeleteObjects: 0.065600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.856691 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd163b176fd4212d6177b934995d0d53f') in 0.074468 seconds
-  Import took 0.087172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.474741 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96934869e5241bee6ec428a19d13483b') in 0.014562 seconds
-  Import took 0.016911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 156.462885 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f71978d49b72f038fd5dac51d019e3f') in 0.012037 seconds
-  Import took 0.111645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001633 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f71978d49b72f038fd5dac51d019e3f') in 0.017320 seconds
-  Import took 0.019488 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000946 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.784 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.9 MB.
-System memory in use after: 61.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
-Total: 1.678300 ms (FindLiveObjects: 0.143100 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.444600 ms  DeleteObjects: 0.057500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.384625 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda73985882dd299277ec6c80e140dca') in 0.061254 seconds
-  Import took 0.063694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.855225 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d1d0413050030eae9388b94284245b') in 0.012351 seconds
-  Import took 0.014868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.221464 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d534b9e9ff5f16472ebab0fd161f85e') in 0.010606 seconds
-  Import took 0.012969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.925943 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21257682b66872dba6d16681b4fca088') in 0.012340 seconds
-  Import took 0.042269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.646671 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a62038908a3b5ad3beba6a25ea6bb31') in 0.020136 seconds
-  Import took 0.022991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.335656 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e999229b45dc9595641d25a90d44bf3') in 0.012312 seconds
-  Import took 0.014572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.251065 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51a0d12e2a77c177a90fa956dd455da') in 0.013841 seconds
-  Import took 0.016227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.186652 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7bc3e52540dc6636ca500857e225bb') in 0.115203 seconds
-  Import took 0.248554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.012024 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb39b982f11280856c4c34387ef41199') in 0.012604 seconds
-  Import took 0.014826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.796607 seconds.
-  path: Assets/Prefabs/Fire.prefab
-  artifactKey: Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fire.prefab using Guid(e0836a2816c1e7547b134d8ebe5a3c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e58f733afa8b30392e49904c95439cd') in 0.012079 seconds
-  Import took 0.014824 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000731 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.823 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.9 MB.
-System memory in use after: 61.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1628.
-Total: 1.893200 ms (FindLiveObjects: 0.154800 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.638000 ms  DeleteObjects: 0.062900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 472.104966 seconds.
-  path: Assets/Stylize Snow Texture
-  artifactKey: Guid(865d985c6ca70b042b10cb80891ce519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylize Snow Texture using Guid(865d985c6ca70b042b10cb80891ce519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bbd459748f14b852ac1aaeeb1d91b8') in 0.010460 seconds
-  Import took 0.012585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.126842 seconds.
-  path: Assets/Snowflakes/32X32
-  artifactKey: Guid(76bc3c47b4baefe44aa3f3606fade70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/32X32 using Guid(76bc3c47b4baefe44aa3f3606fade70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a551543f48bbff9f50ada52d40ba82b') in 0.006418 seconds
-  Import took 0.009340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.597438 seconds.
-  path: Assets/Snowflakes/32X32/1.png
-  artifactKey: Guid(c4c0b0a65aed7f344a294e6dc104c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/32X32/1.png using Guid(c4c0b0a65aed7f344a294e6dc104c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b048cf6083f01ac564a58006d94a7062') in 0.061116 seconds
-  Import took 0.063213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001145 seconds.
-  path: Assets/Snowflakes/32X32/1.png
-  artifactKey: Guid(c4c0b0a65aed7f344a294e6dc104c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/32X32/1.png using Guid(c4c0b0a65aed7f344a294e6dc104c879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b048cf6083f01ac564a58006d94a7062') in 0.011142 seconds
-  Import took 0.013685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.784522 seconds.
-  path: Assets/Snowflakes/32X32/2.png
-  artifactKey: Guid(3329b9c657355c54e825f404142d8cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/32X32/2.png using Guid(3329b9c657355c54e825f404142d8cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341700303d8ae4e0484707607b40159d') in 0.014500 seconds
-  Import took 0.016512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000629 seconds.
-  path: Assets/Snowflakes/32X32/2.png
-  artifactKey: Guid(3329b9c657355c54e825f404142d8cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/32X32/2.png using Guid(3329b9c657355c54e825f404142d8cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341700303d8ae4e0484707607b40159d') in 0.009327 seconds
-  Import took 0.011362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.643079 seconds.
-  path: Assets/Snowflakes/32X32/3.png
-  artifactKey: Guid(7f1fc1aa5d958b94f8d5e034bb2a8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/32X32/3.png using Guid(7f1fc1aa5d958b94f8d5e034bb2a8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a243df396320bbaa5916d3348c2acb08') in 0.013903 seconds
-  Import took 0.015939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000778 seconds.
-  path: Assets/Snowflakes/32X32/3.png
-  artifactKey: Guid(7f1fc1aa5d958b94f8d5e034bb2a8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/32X32/3.png using Guid(7f1fc1aa5d958b94f8d5e034bb2a8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a243df396320bbaa5916d3348c2acb08') in 0.010108 seconds
-  Import took 0.012043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.426414 seconds.
-  path: Assets/Snowflakes/32X32/4.png
-  artifactKey: Guid(76603282e85c5d249a63f4ff854e17ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/32X32/4.png using Guid(76603282e85c5d249a63f4ff854e17ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6801d665dd59b75833953df76823eb9') in 0.012867 seconds
-  Import took 0.015075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001299 seconds.
-  path: Assets/Snowflakes/32X32/4.png
-  artifactKey: Guid(76603282e85c5d249a63f4ff854e17ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/32X32/4.png using Guid(76603282e85c5d249a63f4ff854e17ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6801d665dd59b75833953df76823eb9') in 0.104290 seconds
-  Import took 0.106302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.100660 seconds.
-  path: Assets/Prefabs/snowflake.prefab
-  artifactKey: Guid(e684ba9a26ba668409ca8a1904c379fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/snowflake.prefab using Guid(e684ba9a26ba668409ca8a1904c379fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b08328be6abb3c1782de54f8e793237') in 0.039834 seconds
-  Import took 0.043480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.583031 seconds.
-  path: Assets/Snowflakes/32X32/3.png
-  artifactKey: Guid(7f1fc1aa5d958b94f8d5e034bb2a8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/32X32/3.png using Guid(7f1fc1aa5d958b94f8d5e034bb2a8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8ce5033d09656b892697e1b7fff10a') in 0.008215 seconds
-  Import took 0.010414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 118.759856 seconds.
-  path: Assets/Snowflakes/32X32/3.png
-  artifactKey: Guid(7f1fc1aa5d958b94f8d5e034bb2a8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Snowflakes/32X32/3.png using Guid(7f1fc1aa5d958b94f8d5e034bb2a8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c02704b1baf1989d57844c32e28df4f') in 0.008767 seconds
-  Import took 0.010963 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

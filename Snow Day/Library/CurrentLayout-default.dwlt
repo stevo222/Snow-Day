@@ -15,13 +15,13 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 201
-    y: 58
+    y: 51
     width: 1410
     height: 981
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 102
+  controlID: 122
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,7 +97,7 @@ MonoBehaviour:
     y: 0
     width: 1410
     height: 981
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 26
+  controlID: 97
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 27
+  controlID: 76
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,8 +245,8 @@ MonoBehaviour:
     y: 0
     width: 487
     height: 931
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1124
-    y: 88
+    y: 81
     width: 486
     height: 910
   m_ViewDataDictionary: {fileID: 0}
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 754
-    y: 498
+    y: 491
     width: 368
     height: 500
   m_ViewDataDictionary: {fileID: 0}
@@ -378,8 +378,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Prefabs
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -424,18 +423,18 @@ MonoBehaviour:
     m_ExpandedIDs: ffffffff000000003c3b00003e3b0000403b0000423b0000443b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: snowflake
-      m_OriginalName: snowflake
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 14956
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -498,7 +497,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 201
-    y: 670
+    y: 663
     width: 552
     height: 328
   m_ViewDataDictionary: {fileID: 0}
@@ -587,7 +586,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 201
-    y: 88
+    y: 81
     width: 552
     height: 561
   m_ViewDataDictionary: {fileID: 0}
@@ -604,7 +603,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -1, y: 1.9999458, z: 9.000005}
     speed: 2
-    m_Value: {x: 10.34, y: 0.84, z: 7.16}
+    m_Value: {x: -1, y: 1.9999458, z: 9.000005}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -653,11 +652,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.2363323, y: -0.70822734, z: 0.27657363, w: -0.6051428}
     speed: 2
-    m_Value: {x: -0.051968634, y: -0.80018634, z: 0.07002381, w: -0.59337837}
+    m_Value: {x: -0.23631698, y: -0.7081814, z: 0.2765557, w: -0.60510355}
   m_Size:
     m_Target: 23.194244
     speed: 2
-    m_Value: 1.1400924
+    m_Value: 23.194244
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -703,7 +702,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 754
-    y: 88
+    y: 81
     width: 368
     height: 389
   m_ViewDataDictionary: {fileID: 0}
