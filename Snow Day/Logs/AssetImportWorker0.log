@@ -15,11 +15,11 @@ E:/Snow Day/Snow-Day/Snow-Day/Snow Day
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50771
+51156
 Successfully changed project path to: E:/Snow Day/Snow-Day/Snow-Day/Snow Day
 E:/Snow Day/Snow-Day/Snow-Day/Snow Day
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -35,131 +35,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002158 seconds.
+Registered in 0.002261 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 24.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.175 seconds
+- Completed reload, in  1.167 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000737 seconds.
+Registered in 0.000930 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.898 seconds
+- Completed reload, in  0.900 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
+System memory in use before: 58.1 MB.
 System memory in use after: 58.1 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1564.
-Total: 1.914600 ms (FindLiveObjects: 0.149700 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.646400 ms  DeleteObjects: 0.082600 ms)
+Total: 1.742300 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.480800 ms  DeleteObjects: 0.082000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/FollowPlayer.cs
-  artifactKey: Guid(4869e10cb3b7a5c4f881a7fed8a43778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FollowPlayer.cs using Guid(4869e10cb3b7a5c4f881a7fed8a43778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cbbef6400e760a18eb8a42af0bd69d') in 0.042032 seconds
-  Import took 0.066220 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000724 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.813 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1567.
-Total: 1.679900 ms (FindLiveObjects: 0.136700 ms CreateObjectMapping: 0.030800 ms MarkObjects: 1.454800 ms  DeleteObjects: 0.056700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000655 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1570.
-Total: 2.334800 ms (FindLiveObjects: 0.167200 ms CreateObjectMapping: 0.031500 ms MarkObjects: 2.021500 ms  DeleteObjects: 0.112500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000736 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1573.
-Total: 1.779500 ms (FindLiveObjects: 0.145700 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.546300 ms  DeleteObjects: 0.054800 ms)
+  path: Assets/Prefabs/IceCube.prefab
+  artifactKey: Guid(e684ba9a26ba668409ca8a1904c379fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/IceCube.prefab using Guid(e684ba9a26ba668409ca8a1904c379fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5bd4f660bd9f7ebc17a6a58fa93c88') in 0.125912 seconds
+  Import took 0.127855 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 221.058096 seconds.
-  path: Assets/Scripts/FollowPlayer.cs
-  artifactKey: Guid(4869e10cb3b7a5c4f881a7fed8a43778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FollowPlayer.cs using Guid(4869e10cb3b7a5c4f881a7fed8a43778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e96934e5e6c500d3f94e9b4083ffc8') in 0.008579 seconds
-  Import took 0.097534 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000699 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.833 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1576.
-Total: 1.704300 ms (FindLiveObjects: 0.132800 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.482000 ms  DeleteObjects: 0.050500 ms)
+  Time since last request: 42.908635 seconds.
+  path: Assets/watergun.fbx
+  artifactKey: Guid(37ee3ae3142dc3d49a4bfe0ab4d0d006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/watergun.fbx using Guid(37ee3ae3142dc3d49a4bfe0ab4d0d006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b97bd17765651e78abc0df3b30e38f') in 0.316298 seconds
+  Import took 0.319401 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
