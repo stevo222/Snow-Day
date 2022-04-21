@@ -13,7 +13,7 @@ public class SpawnManager : MonoBehaviour
     private float ySpawn = 1.0f;
 
     private float powerupSpawnTime = 5.0f;
-    private float enemySpawnTime = 1.0f;
+    private float enemySpawnTime = 2.0f;
     private float startDelay = 1.0f;
 
     // Start is called before the first frame update
